@@ -19,5 +19,5 @@ function doWhileLoop (num) {
   do {
   console.log("I run once regardless.");
   count += 1;
-} while (count <= num);
+} while (count < num);
 }
